@@ -1,11 +1,35 @@
-body{
-    margin: 0  
+html, body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-   
+
 
 .container{
     background-color: rgb(1, 35, 35);
     min-height: 100vh;
     display: grid;
     place-items: center;
+}
+
+.button-border{
+    background: linear-gradient( 100deg ,rgb(8, 165, 76), rgb(140, 29, 133), rgb(0, 255, 247), rgba(244, 2, 38, 0.878), rgb(240, 244, 2));
+    padding: 3px;
+}
+
+#button1{
+        background:  rgb(145, 15, 15);
+        color: rgba(0, 255, 47, 0.675);
+        padding: 1em 2em;
+        font:  inherit
+}
+
+.button-border:hover{
+    background: linear-gradient( -100deg ,rgb(8, 165, 76), rgb(140, 29, 133), rgb(0, 255, 247), rgba(244, 2, 38, 0.878), rgb(240, 244, 2));
+    padding: 3.5px;
+
+}
+
+.button-border:hover #button1{
+padding: 1.1em 2.1em;
+
 }
